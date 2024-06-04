@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: cache-api
+  cache:
+    type: redis
+  data:
+    redis:
+      host: ${HOST:localhost}
+      port: ${PORT:6379}
+      password: ${PASSWORD:password}
